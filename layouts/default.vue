@@ -1,10 +1,10 @@
 <template>
   <div class="blog">
-    <Preloader />
-    <Navbar />
-    <Header />
+    <DefaultPreloader />
+    <DefaultNavbar />
+    <DefaultHeader />
     <slot />
-    <Footer />
+    <DefaultFooter />
   </div>
 </template>
 
