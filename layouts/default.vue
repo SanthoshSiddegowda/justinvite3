@@ -8,6 +8,25 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    script: [
+        { src: "/js/jquery.js" },
+        { src: "/js/jquery.fitvids.js" },
+        { src: "/js/jquery.smartmenus.min.js" },
+        { src: "/js/imagesloaded.pkgd.js" },
+        { src: "/js/isotope.pkgd.js" },
+        { src: "/js/jquery.carouFredSel-6.0.0-packed.js" },
+        { src: "/js/jquery.mousewheel.min.js" },
+        { src: "/js/jquery.easing.1.3.js" },
+        { src: "/js/main-headline.js" },
+        { src: "/js/jquery.sticky-kit.min.js" },
+        { src: "/js/jquery.ba-throttle-debounce.min.js" },
+        { src: "/js/jquery.nicescroll.min.js" },
+        { src: "/js/main.js" }
+      ]
+  })
+</script>
 <style>
 @import "@/assets/css/clear.css";
 @import "@/assets/css/common.css";

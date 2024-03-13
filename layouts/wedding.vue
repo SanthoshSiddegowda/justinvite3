@@ -1,8 +1,22 @@
 <template>
-      <slot />
-  </template>
+  <slot />
+</template>
   
-  <style>
-    @import "@/assets/css/app.css";
-  </style>
-  
+<script setup>
+  useHead({
+    script: 
+    [
+      {
+        type: 'module',
+        src: '/js/app.js'
+      },
+      {
+        type: 'module',
+        src: '/js/pace.js'
+      }
+    ]
+  })
+</script>
+<style>
+  @import "@/assets/css/app.css";
+</style>

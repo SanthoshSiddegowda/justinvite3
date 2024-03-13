@@ -10,7 +10,7 @@
           <div class="card__info">
             <span class="card__category"> Wedding</span>
             <h3 class="card__title">Wedding Card: Popular</h3>
-            <a href="https://wed.justinvite.in/demo/" class="button">Demo</a>
+            <a href="wedding/demo" class="button">Demo</a>
             <a href="https://www.instagram.com/just__invite/" class="button"
               >Contact</a
             >
